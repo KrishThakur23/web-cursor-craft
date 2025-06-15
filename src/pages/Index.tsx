@@ -1,4 +1,3 @@
-
 import { ArrowRight, Code, Palette, Zap, Users, CheckCircle, Star } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -18,7 +17,7 @@ const Index = () => {
         <nav className="flex items-center justify-between">
           <div className="flex items-center space-x-2 group">
             <Code className="w-8 h-8 text-purple-400 transition-all duration-300 group-hover:rotate-12 group-hover:scale-110" />
-            <span className="text-2xl font-bold transition-all duration-300 group-hover:text-purple-300">WebCraft</span>
+            <span className="text-2xl font-bold transition-all duration-300 group-hover:text-purple-300">Aegentrix AI</span>
           </div>
           <div className="hidden md:flex items-center space-x-8">
             <a href="#services" className="hover:text-purple-400 transition-all duration-300 relative after:content-[''] after:absolute after:w-full after:scale-x-0 after:h-0.5 after:bottom-0 after:left-0 after:bg-purple-400 after:origin-bottom-right after:transition-transform after:duration-300 hover:after:scale-x-100 hover:after:origin-bottom-left">
@@ -62,7 +61,7 @@ const Index = () => {
       {/* Features */}
       <section id="services" className="container mx-auto px-6 py-20">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold mb-4 transition-all duration-700 hover:text-purple-300">Why Choose WebCraft?</h2>
+          <h2 className="text-4xl font-bold mb-4 transition-all duration-700 hover:text-purple-300">Why Choose Aegentrix AI?</h2>
           <p className="text-gray-400 text-lg transition-all duration-500 hover:text-gray-300">We combine cutting-edge technology with creative design</p>
         </div>
         
@@ -261,10 +260,10 @@ const Index = () => {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="flex items-center space-x-2 mb-4 md:mb-0 group">
               <Code className="w-8 h-8 text-purple-400 transition-all duration-300 group-hover:rotate-12 group-hover:scale-110" />
-              <span className="text-2xl font-bold transition-all duration-300 group-hover:text-purple-300">WebCraft</span>
+              <span className="text-2xl font-bold transition-all duration-300 group-hover:text-purple-300">Aegentrix AI</span>
             </div>
             <div className="text-gray-400 transition-all duration-300 hover:text-gray-300">
-              © 2024 WebCraft. All rights reserved.
+              © 2024 Aegentrix AI. All rights reserved.
             </div>
           </div>
         </div>
