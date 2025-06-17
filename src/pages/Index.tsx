@@ -17,7 +17,7 @@ const Index = () => {
   }, []);
 
   const handleWhatsAppClick = () => {
-    window.open('https://wa.me/1234567890?text=Hi, I would like to discuss a website project with Aegentrix AI', '_blank');
+    window.open('https://wa.me/+918882173672?text=Hi, I would like to discuss a website project with Aegentrix AI', '_blank');
   };
 
   const scrollToSection = (sectionId: string) => {
